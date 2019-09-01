@@ -1,4 +1,4 @@
-# HelloChain
+# MyOriginChain
 
 ### A "hello world" blockchain built with the Cosmos-SDK
 
