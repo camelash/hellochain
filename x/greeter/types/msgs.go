@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "camelash/vend/cosmos-sdk/types"
 )
 
 // RouterKey is used to route messages and queriers to the greeter module

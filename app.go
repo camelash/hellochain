@@ -1,7 +1,8 @@
 package hellochain
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "camelash/vend/cosmos-sdk/types"
+
 	abci "github.com/tendermint/tendermint/abci/types"
 	dbm "github.com/tendermint/tendermint/libs/db"
 	"github.com/tendermint/tendermint/libs/log"

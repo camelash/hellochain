@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	codec "github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	codec "camelash/vend/cosmos-sdk/codec"
+	sdk "camelash/vend/cosmos-sdk/types"
 )
 
 const (

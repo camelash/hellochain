@@ -3,8 +3,8 @@ package greeter
 import (
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"camelash/vend/cosmos-sdk/codec"
+	sdk "camelash/vend/cosmos-sdk/types"
 	gtypes "camelash/x/greeter/types"
 )
 

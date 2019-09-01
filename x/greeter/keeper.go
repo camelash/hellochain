@@ -1,10 +1,10 @@
 package greeter
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
+	"camelash/vend/cosmos-sdk/codec"
 	gtypes "camelash/x/greeter/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "camelash/vend/cosmos-sdk/types"
 )
 
 // Keeper maintains the link to data storage and exposes getter/setter methods for the various parts of the state machine

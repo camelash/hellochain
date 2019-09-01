@@ -2,7 +2,7 @@ package greeter
 
 import (
 	"fmt"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "camelash/vend/cosmos-sdk/types"
 	gtypes "camelash/x/greeter/types"
 )
 

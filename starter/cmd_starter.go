@@ -7,21 +7,21 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	"github.com/cosmos/cosmos-sdk/client/rpc"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/x/genaccounts"
-	genaccscli "github.com/cosmos/cosmos-sdk/x/genaccounts/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"camelash/vend/cosmos-sdk/client/keys"
+	"camelash/vend/cosmos-sdk/client/rpc"
+	"camelash/vend/cosmos-sdk/server"
+	"camelash/vend/cosmos-sdk/x/genaccounts"
+	genaccscli "camelash/vend/cosmos-sdk/x/genaccounts/client/cli"
+	"camelash/vend/cosmos-sdk/x/staking"
 	amino "github.com/tendermint/go-amino"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/lcd"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authcmd "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
-	bankcmd "github.com/cosmos/cosmos-sdk/x/bank/client/cli"
-	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
+	"camelash/vend/cosmos-sdk/client"
+	"camelash/vend/cosmos-sdk/client/lcd"
+	sdk "camelash/vend/cosmos-sdk/types"
+	authcmd "camelash/vend/cosmos-sdk/x/auth/client/cli"
+	bankcmd "camelash/vend/cosmos-sdk/x/bank/client/cli"
+	genutilcli "camelash/vend/cosmos-sdk/x/genutil/client/cli"
 )
 
 // NewCLICommand returns a basic root CLI cmd to interact with a running SDK chain.

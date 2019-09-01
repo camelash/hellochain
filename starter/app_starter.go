@@ -12,25 +12,25 @@ import (
 	pvm "github.com/tendermint/tendermint/privval"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	bam "github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	"github.com/cosmos/cosmos-sdk/x/genaccounts"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	"github.com/cosmos/cosmos-sdk/x/params"
-	"github.com/cosmos/cosmos-sdk/x/supply"
+	bam "camelash/vend/cosmos-sdk/baseapp"
+	"camelash/vend/cosmos-sdk/codec"
+	"camelash/vend/cosmos-sdk/server"
+	sdk "camelash/vend/cosmos-sdk/types"
+	"camelash/vend/cosmos-sdk/types/module"
+	"camelash/vend/cosmos-sdk/x/auth"
+	"camelash/vend/cosmos-sdk/x/bank"
+	"camelash/vend/cosmos-sdk/x/genaccounts"
+	"camelash/vend/cosmos-sdk/x/genutil"
+	"camelash/vend/cosmos-sdk/x/params"
+	"camelash/vend/cosmos-sdk/x/supply"
 )
 
 // nolint
 var (
 	ModuleBasics    module.BasicManager
 	Cdc             *codec.Codec
-	DefaultCLIHome  = os.ExpandEnv("$HOME/.hellocli")
-	DefaultNodeHome = os.ExpandEnv("$HOME/.hellod")
+	DefaultCLIHome  = os.ExpandEnv("$HOME/.mycli")
+	DefaultNodeHome = os.ExpandEnv("$HOME/.myd")
 	maccPerms       = map[string][]string{
 		auth.FeeCollectorName: nil,
 	}

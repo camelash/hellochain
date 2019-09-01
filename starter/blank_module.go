@@ -8,10 +8,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"camelash/vend/cosmos-sdk/client/context"
+	"camelash/vend/cosmos-sdk/codec"
+	sdk "camelash/vend/cosmos-sdk/types"
+	"camelash/vend/cosmos-sdk/types/module"
 )
 
 // BlankModuleBasic implements the AppModuleBasic interface using a given ModuleName

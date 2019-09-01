@@ -4,13 +4,13 @@ import (
 	//"fmt"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
+	"camelash/vend/cosmos-sdk/client"
+	"camelash/vend/cosmos-sdk/client/context"
+	"camelash/vend/cosmos-sdk/x/auth/client/utils"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
+	"camelash/vend/cosmos-sdk/codec"
+	sdk "camelash/vend/cosmos-sdk/types"
+	"camelash/vend/cosmos-sdk/x/auth"
 	gtypes "camelash/x/greeter/types"
 )
 

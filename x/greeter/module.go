@@ -3,9 +3,9 @@ package greeter
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"camelash/vend/cosmos-sdk/codec"
+	sdk "camelash/vend/cosmos-sdk/types"
+	"camelash/vend/cosmos-sdk/types/module"
 	starter "camelash/starter"
 	gtypes "camelash/x/greeter/types"
 
