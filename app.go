@@ -6,11 +6,11 @@ import (
 	dbm "github.com/tendermint/tendermint/libs/db"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/hellochain/starter"
+	"camelash/starter"
 
 	//import greeter types
-	"github.com/cosmos/hellochain/x/greeter"
-	gtypes "github.com/cosmos/hellochain/x/greeter/types"
+	"camelash/x/greeter"
+	gtypes "camelash/x/greeter/types"
 )
 
 const appName = "hellochain"
