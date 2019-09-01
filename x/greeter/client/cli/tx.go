@@ -11,7 +11,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
-	gtypes "github.com/cosmos/hellochain/x/greeter/types"
+	gtypes "camelash/x/greeter/types"
 )
 
 // GetTxCmd returns the parent transaction command for the greeting module
