@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/tendermint/tendermint/libs/cli"
 
-	app "github.com/cosmos/hellochain"
-	"github.com/cosmos/hellochain/starter"
+	app "camelash"
+	"camelash/starter"
 )
 
 func main() {
