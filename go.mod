@@ -1,4 +1,4 @@
-module github.com/cosmos/hellochain
+module camelash
 
 go 1.12
 
