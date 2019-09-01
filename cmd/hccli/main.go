@@ -3,9 +3,9 @@ package main
 import (
 	"github.com/tendermint/tendermint/libs/cli"
 
-	app "github.com/cosmos/hellochain"
-	"github.com/cosmos/hellochain/starter"
-	"github.com/cosmos/hellochain/x/greeter"
+	app "camelash"
+	"camelash/starter"
+	"camelash/x/greeter"
 )
 
 func main() {
